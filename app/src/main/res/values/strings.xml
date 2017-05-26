@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jmitschool</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_webviewpdf">Webviewpdf</string>
+    <string name="title_activity_mainfile">Mainfile</string>
+    <string name="title_activity_samplepapers">Samplepapers</string>
+    <string name="title_activity_physamplepapers">Physamplepapers</string>
+    <string name="title_activity_chemsamplepapers">Chemsamplepapers</string>
+    <string name="title_activity_mathssamplepapers">Mathssamplepapers</string>
+    <string name="title_activity_syllabus">Syllabus</string>
+    <string name="title_activity_mathsprepprs">mathsprepprs</string>
+    <string name="title_activity_phyprepprs">phyprepprs</string>
+    <string name="title_activity_chemprepprs">chemprepprs</string>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="title_activity_physummpprs">physummpprs</string>
+    <string name="title_activity_chemsummpprs">chemsummpprs</string>
+    <string name="title_activity_singupform">singupform</string>
+    <string name="title_activity_signup_par_stu">signup_par_stu</string>
+    <string name="title_activity_rolechoose">rolechoose</string>
+    <string name="title_activity_signup_stu_par">signup_stu_par</string>
+</resources>

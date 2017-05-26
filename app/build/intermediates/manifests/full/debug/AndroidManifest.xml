@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.jmitschool"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hp.jmitschool.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Webviewpdf"
+            android:label="@string/title_activity_webviewpdf" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Mainfile"
+            android:label="@string/title_activity_mainfile" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Samplepapers"
+            android:label="@string/title_activity_samplepapers" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Physamplepapers"
+            android:label="@string/title_activity_physamplepapers" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Chemsamplepapers"
+            android:label="@string/title_activity_chemsamplepapers" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Mathssamplepapers"
+            android:label="@string/title_activity_mathssamplepapers" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.Syllabus"
+            android:label="@string/title_activity_syllabus" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.mathsprepprs"
+            android:label="@string/title_activity_mathsprepprs" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.phyprepprs"
+            android:label="@string/title_activity_phyprepprs" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.chemprepprs"
+            android:label="@string/title_activity_chemprepprs" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.welcome"
+            android:label="JBOOKS" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.physummpprs"
+            android:label="@string/title_activity_physummpprs" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.chemsummpprs"
+            android:label="@string/title_activity_chemsummpprs" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.singupform"
+            android:label="@string/title_activity_singupform" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.signup_par_stu"
+            android:label="@string/title_activity_signup_par_stu" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.rolechoose"
+            android:label="@string/title_activity_rolechoose" >
+        </activity>
+        <activity
+            android:name="com.example.hp.jmitschool.signup_stu_par"
+            android:label="@string/title_activity_signup_stu_par" >
+        </activity>
+    </application>
+
+</manifest>

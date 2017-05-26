@@ -1,0 +1,7 @@
+#Fri May 26 18:42:03 IST 2017
+base.0=E\:\\android_projects\\Jmitschool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7f159da7dc6b0a45b186199b942824484d532953
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\android_projects\\Jmitschool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fbf732630d9549c777a0fd93250fa926afdea6d0\\classes.dex
+base.1=E\:\\android_projects\\Jmitschool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fbf732630d9549c777a0fd93250fa926afdea6d0
+file.0=E\:\\android_projects\\Jmitschool\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7f159da7dc6b0a45b186199b942824484d532953\\classes.dex

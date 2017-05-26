@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_mathsprepprs.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_mathsprepprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_signup_par_stu.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_signup_par_stu.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chemprepprs.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_chemprepprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_mathssamplepapers.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_mathssamplepapers.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_physamplepapers.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_physamplepapers.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_physummpprs.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_physummpprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chemsamplepapers.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_chemsamplepapers.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_webviewpdf.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_webviewpdf.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_rolechoose.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_rolechoose.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_samplepapers.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_samplepapers.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_mainfile.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_mainfile.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_signup_stu_par.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_signup_stu_par.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_syllabus.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_syllabus.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_singupform.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_singupform.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_phyprepprs.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_phyprepprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chemsummpprs.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_chemsummpprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_welcome.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\menu\\menu_welcome.xml"
+    }
+]
