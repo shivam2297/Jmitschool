@@ -13,10 +13,10 @@ Button btnclass12,btnclass11;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainfile);
+        setContentView(R.layout.class_chooser);
         getSupportActionBar().hide();
-        btnclass11=(Button)findViewById(R.id.btnclass11);
-        btnclass12=(Button)findViewById(R.id.btnclass12);
+        btnclass11=(Button)findViewById(R.id.class_11);
+        btnclass12=(Button)findViewById(R.id.class_12);
         btnclass11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

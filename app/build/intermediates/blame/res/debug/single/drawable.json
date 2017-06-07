@@ -32,8 +32,16 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_shape.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\drawable\\arrow_shape.xml"
+    },
+    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background1.png",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\drawable\\background1.png"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
@@ -68,12 +76,20 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background1_hdpi.png",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\drawable\\background1_hdpi.png"
+    },
+    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg2.jpg",
         "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\drawable\\bg2.jpg"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",

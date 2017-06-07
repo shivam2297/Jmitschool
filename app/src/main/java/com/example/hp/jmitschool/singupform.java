@@ -12,6 +12,9 @@ import android.provider.SyncStateContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -55,15 +58,15 @@ public class singupform extends AppCompatActivity implements AdapterView.OnItemC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_singupform);
-        getSupportActionBar().hide();
+        setContentView(R.layout.teacher_details);
+        //getSupportActionBar().hide();
         //role = (EditText) findViewById(R.id.role);
         name = (EditText) findViewById(R.id.name);
         ph_no = (EditText) findViewById(R.id.ph_no);
         email = (EditText) findViewById(R.id.email);
         //subject = (EditText) findViewById(R.id.subject);
         school_name = (EditText) findViewById(R.id.school_name);
-        btnsubmit = (Button) findViewById(R.id.btnsubmit);
+        //btnsubmit = (Button) findViewById(R.id.btnsubmit);
         spinnersubject = (Spinner) findViewById(R.id.spinnersubject);
 
 //        spinnersubject.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) getApplicationContext());
@@ -85,7 +88,7 @@ public class singupform extends AppCompatActivity implements AdapterView.OnItemC
         // attaching data adapter to spinner
         spinnersubject.setAdapter(dataAdapter);
 
-        btnsubmit.setOnClickListener(new View.OnClickListener() {
+        /*btnsubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -147,7 +150,7 @@ public class singupform extends AppCompatActivity implements AdapterView.OnItemC
                     }
                 }
             }
-        });
+        });*/
     }
 
     public boolean isOnline() {
@@ -294,4 +297,72 @@ public class singupform extends AppCompatActivity implements AdapterView.OnItemC
         return result.toString();
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.submit_form,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        boolean allvalid=true;
+        if (name.getText().toString().matches("") || ph_no.getText().toString().matches("") || email.getText().toString().matches("") || school_name.getText().toString().matches("")) {
+            allvalid=false;
+            Toast.makeText(getApplicationContext(), "Fill All The Blanks", Toast.LENGTH_SHORT).show();
+        }
+        if(ph_no.getText().toString().length() < 7 || ph_no.getText().toString().length() > 13) {
+            allvalid=false;
+            Toast.makeText(getApplicationContext(), "check your Phone Number", Toast.LENGTH_SHORT).show();
+        }
+        if (!isValidEmail(email.getText())){
+            allvalid=false;
+            Toast.makeText(getApplicationContext(), "check your email", Toast.LENGTH_SHORT).show();
+        }
+        if (spinnersubject.getSelectedItemPosition()==0){
+            allvalid=false;
+            Toast.makeText(getApplicationContext(), "choose a subject", Toast.LENGTH_SHORT).show();
+        }
+        if (allvalid && isOnline()){
+            Toast.makeText(getApplicationContext(), "Succesfully login by:"+name.getText().toString(), Toast.LENGTH_SHORT).show();
+            String rol = "faculty";
+            String nam = name.getText().toString();
+            String ema = email.getText().toString();
+            String ph = ph_no.getText().toString();
+            String fathername = "----";
+            String fatheremail="----";
+            String streamf = "----";
+            String yopass="----";
+            String parentcontact = "----";
+            String fsubject=spinnersubject.getSelectedItem().toString();
+            String school = school_name.getText().toString();
+
+            String[] details = {rol, nam, ph, ema, fathername, parentcontact, school,yopass,streamf,fatheremail,fsubject};
+            Log.d("test1", details.toString());
+            new SendPostRequest().execute(details);
+            Intent intent = new Intent(singupform.this, Mainfile.class);
+            startActivity(intent);
+        }else{
+            try {
+                AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+
+                alertDialog.setTitle("Info");
+                alertDialog.setMessage("Internet not available, Cross check your internet connectivity and try again");
+                alertDialog.setIcon(android.R.drawable.ic_dialog_alert);
+                alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+
+                    }
+                });
+
+                alertDialog.show();
+            }
+            catch(Exception e)
+            {
+                Log.d(TAG, "Show Dialog: "+e.getMessage());
+            }
+        }
+        return true;
+    }
 }

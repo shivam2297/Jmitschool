@@ -8,6 +8,10 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\933364d10bf6a02d4f9e027ecaa3938b4af04237\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\teacher_fields.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\teacher_fields.xml"
+    },
+    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\933364d10bf6a02d4f9e027ecaa3938b4af04237\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mathsprepprs.xml",
         "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_mathsprepprs.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -56,12 +60,16 @@
         "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_chemprepprs.xml"
     },
     {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\notification_media_action.xml"
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\student_details.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\student_details.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -84,8 +92,16 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\student_fields.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\student_fields.xml"
+    },
+    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_view.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_recycler_view.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -152,10 +168,6 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\933364d10bf6a02d4f9e027ecaa3938b4af04237\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_singupform.xml",
-        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_singupform.xml"
-    },
-    {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\DELL\\.android\\build-cache\\933364d10bf6a02d4f9e027ecaa3938b4af04237\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -164,8 +176,8 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\933364d10bf6a02d4f9e027ecaa3938b4af04237\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup_stu_par.xml",
-        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_signup_stu_par.xml"
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\class_chooser.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\class_chooser.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -174,6 +186,10 @@
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_syllabus.xml",
         "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_syllabus.xml"
+    },
+    {
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logo.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\logo.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -212,12 +228,12 @@
         "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\teacher_details.xml",
+        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\teacher_details.xml"
     },
     {
-        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_signup_par_stu.xml",
-        "source": "E:\\android_projects\\Jmitschool\\app\\src\\main\\res\\layout\\activity_signup_par_stu.xml"
+        "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\DELL\\.android\\build-cache\\29060bac3603933e32710b17a57d32cb4bdcf158\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "E:\\android_projects\\Jmitschool\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
