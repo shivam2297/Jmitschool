@@ -20,4 +20,9 @@
     <string name="title_activity_signup_par_stu">signup_par_stu</string>
     <string name="title_activity_rolechoose">rolechoose</string>
     <string name="title_activity_signup_stu_par">signup_stu_par</string>
+    <string name="aboutUsText">
+        JBooks app is brought to you by JMIT, Radaur.\n\n
+        The app provides online study material for the school students.\n\n
+        It provides signup and login facilty for different user type like students, parent and faculty.
+    </string>
 </resources>

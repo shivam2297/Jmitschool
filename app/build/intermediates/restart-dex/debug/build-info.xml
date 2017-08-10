@@ -6,7 +6,7 @@
     density="280dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1496815955128"
+    timestamp="1502367748355"
     token="5145031603473546314"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -18,27 +18,14 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="837" />
+        duration="0" />
     <task
         name="verifier"
-        duration="526" />
-
-    <artifact
-        location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\android_projects\Jmitschool\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1496815208006"
+        timestamp="1502365650555"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -79,20 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1496815955128"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_projects\Jmitschool\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\android_projects\Jmitschool\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
+        timestamp="1502367748355"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

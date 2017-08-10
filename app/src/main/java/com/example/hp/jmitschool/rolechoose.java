@@ -15,7 +15,7 @@ public class rolechoose extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rolechoose);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         parentbtn=(Button)findViewById(R.id.parentbtn);
         facultybtn=(Button)findViewById(R.id.facultybtn);
         studentbtn=(Button)findViewById(R.id.studentbtn);
@@ -58,8 +58,9 @@ public class rolechoose extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.aboutus) {
+            Intent intent=new Intent(rolechoose.this,AboutUs.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

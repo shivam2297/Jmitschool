@@ -18,48 +18,37 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.hp.jmitschool.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.example.hp.jmitschool.Webviewpdf"
-            android:label="@string/title_activity_webviewpdf" >
-        </activity>
+            android:label="@string/title_activity_webviewpdf" />
         <activity
             android:name="com.example.hp.jmitschool.Mainfile"
-            android:label="@string/title_activity_mainfile" >
-        </activity>
+            android:label="@string/title_activity_mainfile" />
         <activity
             android:name="com.example.hp.jmitschool.Samplepapers"
-            android:label="@string/title_activity_samplepapers" >
-        </activity>
+            android:label="@string/title_activity_samplepapers" />
         <activity
             android:name="com.example.hp.jmitschool.Physamplepapers"
-            android:label="@string/title_activity_physamplepapers" >
-        </activity>
+            android:label="@string/title_activity_physamplepapers" />
         <activity
             android:name="com.example.hp.jmitschool.Chemsamplepapers"
-            android:label="@string/title_activity_chemsamplepapers" >
-        </activity>
+            android:label="@string/title_activity_chemsamplepapers" />
         <activity
             android:name="com.example.hp.jmitschool.Mathssamplepapers"
-            android:label="@string/title_activity_mathssamplepapers" >
-        </activity>
+            android:label="@string/title_activity_mathssamplepapers" />
         <activity
             android:name="com.example.hp.jmitschool.Syllabus"
-            android:label="@string/title_activity_syllabus" >
-        </activity>
+            android:label="@string/title_activity_syllabus" />
         <activity
             android:name="com.example.hp.jmitschool.mathsprepprs"
-            android:label="@string/title_activity_mathsprepprs" >
-        </activity>
+            android:label="@string/title_activity_mathsprepprs" />
         <activity
             android:name="com.example.hp.jmitschool.phyprepprs"
-            android:label="@string/title_activity_phyprepprs" >
-        </activity>
+            android:label="@string/title_activity_phyprepprs" />
         <activity
             android:name="com.example.hp.jmitschool.chemprepprs"
-            android:label="@string/title_activity_chemprepprs" >
-        </activity>
+            android:label="@string/title_activity_chemprepprs" />
         <activity
             android:name="com.example.hp.jmitschool.welcome"
             android:label="JBOOKS" >
@@ -71,28 +60,23 @@
         </activity>
         <activity
             android:name="com.example.hp.jmitschool.physummpprs"
-            android:label="@string/title_activity_physummpprs" >
-        </activity>
+            android:label="@string/title_activity_physummpprs" />
         <activity
             android:name="com.example.hp.jmitschool.chemsummpprs"
-            android:label="@string/title_activity_chemsummpprs" >
-        </activity>
+            android:label="@string/title_activity_chemsummpprs" />
         <activity
             android:name="com.example.hp.jmitschool.singupform"
-            android:label="@string/title_activity_singupform" >
-        </activity>
+            android:label="@string/title_activity_singupform" />
         <activity
             android:name="com.example.hp.jmitschool.signup_par_stu"
-            android:label="@string/title_activity_signup_par_stu" >
-        </activity>
+            android:label="@string/title_activity_signup_par_stu" />
         <activity
             android:name="com.example.hp.jmitschool.rolechoose"
-            android:label="@string/title_activity_rolechoose" >
-        </activity>
+            android:label="@string/title_activity_rolechoose" />
         <activity
             android:name="com.example.hp.jmitschool.signup_stu_par"
-            android:label="@string/title_activity_signup_stu_par" >
-        </activity>
+            android:label="@string/title_activity_signup_stu_par" />
+        <activity android:name="com.example.hp.jmitschool.AboutUs" />
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:2:1-92:12
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml
@@ -18,11 +18,11 @@ ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:5:5-6
 	android:name
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:6:5-78
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:8:5-90:19
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:8:5-74:19
 MERGED from [com.android.support:design:24.2.1] C:\Users\DELL\.android\build-cache\933364d10bf6a02d4f9e027ecaa3938b4af04237\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\DELL\.android\build-cache\29060bac3603933e32710b17a57d32cb4bdcf158\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\DELL\.android\build-cache\5b98105de3e3f1ed2a8a5e1609d5876123892323\output\AndroidManifest.xml:25:5-20
@@ -33,6 +33,7 @@ MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\DELL\
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\DELL\.android\build-cache\b6b1bf267bf44be4da786b450523c46dd0ab504f\output\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\DELL\.android\build-cache\686c9d5d13657417df0db20fc06d3c951012a156\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\DELL\.android\build-cache\b1fd01dc82452eb5bae223ecf5ff4928b9ecccb3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.android\build-cache\ee442bf55d4058c9c7d7e2e91172ec84eb166569\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:11:9-41
 	android:allowBackup
@@ -42,123 +43,127 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\DELL\.android\b
 	android:theme
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:12:9-40
 activity#com.example.hp.jmitschool.MainActivity
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:13:9-16:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:13:9-15:57
 	android:label
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:15:13-45
 	android:name
 		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:14:13-41
 activity#com.example.hp.jmitschool.Webviewpdf
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:17:9-20:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:16:9-18:74
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:19:13-62
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:18:13-62
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:18:13-39
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:17:13-39
 activity#com.example.hp.jmitschool.Mainfile
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:21:9-24:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:19:9-21:72
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:23:13-60
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:21:13-60
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:20:13-37
 activity#com.example.hp.jmitschool.Samplepapers
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:25:9-28:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:22:9-24:76
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:27:13-64
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:24:13-64
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:23:13-41
 activity#com.example.hp.jmitschool.Physamplepapers
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:29:9-32:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:25:9-27:79
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:31:13-67
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:27:13-67
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:30:13-44
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:26:13-44
 activity#com.example.hp.jmitschool.Chemsamplepapers
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:33:9-36:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:28:9-30:80
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:35:13-68
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:30:13-68
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:29:13-45
 activity#com.example.hp.jmitschool.Mathssamplepapers
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:37:9-40:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:31:9-33:81
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:39:13-69
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:33:13-69
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:38:13-46
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:32:13-46
 activity#com.example.hp.jmitschool.Syllabus
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:41:9-44:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:34:9-36:72
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:43:13-60
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:36:13-60
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:35:13-37
 activity#com.example.hp.jmitschool.mathsprepprs
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:45:9-48:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:37:9-39:76
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:47:13-64
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:39:13-64
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:46:13-41
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:38:13-41
 activity#com.example.hp.jmitschool.phyprepprs
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:49:9-52:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:40:9-42:74
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:51:13-62
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:42:13-62
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:50:13-39
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:41:13-39
 activity#com.example.hp.jmitschool.chemprepprs
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:53:9-56:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:43:9-45:75
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:55:13-63
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:45:13-63
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:54:13-40
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:44:13-40
 activity#com.example.hp.jmitschool.welcome
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:57:9-65:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:46:9-54:20
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:59:13-35
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:48:13-35
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:58:13-36
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:47:13-36
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:60:13-64:29
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:61:17-69
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:61:25-66
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:63:17-77
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:63:27-74
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:52:27-74
 activity#com.example.hp.jmitschool.physummpprs
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:66:9-69:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:55:9-57:75
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:68:13-63
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:57:13-63
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:67:13-40
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:56:13-40
 activity#com.example.hp.jmitschool.chemsummpprs
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:70:9-73:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:58:9-60:76
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:72:13-64
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:60:13-64
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:71:13-41
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:59:13-41
 activity#com.example.hp.jmitschool.singupform
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:74:9-77:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:61:9-63:74
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:76:13-62
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:63:13-62
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:75:13-39
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:62:13-39
 activity#com.example.hp.jmitschool.signup_par_stu
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:78:9-81:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:64:9-66:78
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:80:13-66
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:66:13-66
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:79:13-43
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:65:13-43
 activity#com.example.hp.jmitschool.rolechoose
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:82:9-85:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:67:9-69:74
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:84:13-62
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:69:13-62
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:83:13-39
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:68:13-39
 activity#com.example.hp.jmitschool.signup_stu_par
-ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:86:9-89:20
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:70:9-72:78
 	android:label
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:88:13-66
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:72:13-66
 	android:name
-		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:87:13-43
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:71:13-43
+activity#com.example.hp.jmitschool.AboutUs
+ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:73:9-54
+	android:name
+		ADDED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml:73:19-42
 uses-sdk
 INJECTED from E:\android_projects\Jmitschool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] C:\Users\DELL\.android\build-cache\933364d10bf6a02d4f9e027ecaa3938b4af04237\output\AndroidManifest.xml:20:5-43
@@ -172,6 +177,7 @@ MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\DELL\.
 MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\DELL\.android\build-cache\d79a2c782cc2efc75fa7a4d4599f650cd7a148f1\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\DELL\.android\build-cache\686c9d5d13657417df0db20fc06d3c951012a156\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\DELL\.android\build-cache\b1fd01dc82452eb5bae223ecf5ff4928b9ecccb3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL\.android\build-cache\ee442bf55d4058c9c7d7e2e91172ec84eb166569\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\DELL\.android\build-cache\29060bac3603933e32710b17a57d32cb4bdcf158\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1_hdpi"
+    android:orientation="vertical"
+    tools:context="com.example.hp.jmitschool.AboutUs">
+
+    <TextView
+        android:id="@+id/aboutus_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:background="@drawable/textviewbackground"
+        android:gravity="center_horizontal"
+        android:padding="20sp"
+        android:text="@string/aboutUsText"
+        android:textColor="#0a408a"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/creditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:layout_weight="1"
+        android:background="@drawable/textviewbackground"
+        android:padding="20sp"
+        android:textColor="#0a408a"
+        android:textSize="18sp" />
+</LinearLayout>

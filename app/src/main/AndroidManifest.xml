@@ -1,62 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hp.jmitschool" >
+    package="com.example.hp.jmitschool">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".Webviewpdf"
-            android:label="@string/title_activity_webviewpdf" >
-        </activity>
+            android:label="@string/title_activity_webviewpdf"></activity>
         <activity
             android:name=".Mainfile"
-            android:label="@string/title_activity_mainfile" >
-        </activity>
+            android:label="@string/title_activity_mainfile"></activity>
         <activity
             android:name=".Samplepapers"
-            android:label="@string/title_activity_samplepapers" >
-        </activity>
+            android:label="@string/title_activity_samplepapers"></activity>
         <activity
             android:name=".Physamplepapers"
-            android:label="@string/title_activity_physamplepapers" >
-        </activity>
+            android:label="@string/title_activity_physamplepapers"></activity>
         <activity
             android:name=".Chemsamplepapers"
-            android:label="@string/title_activity_chemsamplepapers" >
-        </activity>
+            android:label="@string/title_activity_chemsamplepapers"></activity>
         <activity
             android:name=".Mathssamplepapers"
-            android:label="@string/title_activity_mathssamplepapers" >
-        </activity>
+            android:label="@string/title_activity_mathssamplepapers"></activity>
         <activity
             android:name=".Syllabus"
-            android:label="@string/title_activity_syllabus" >
-        </activity>
+            android:label="@string/title_activity_syllabus"></activity>
         <activity
             android:name=".mathsprepprs"
-            android:label="@string/title_activity_mathsprepprs" >
-        </activity>
+            android:label="@string/title_activity_mathsprepprs"></activity>
         <activity
             android:name=".phyprepprs"
-            android:label="@string/title_activity_phyprepprs" >
-        </activity>
+            android:label="@string/title_activity_phyprepprs"></activity>
         <activity
             android:name=".chemprepprs"
-            android:label="@string/title_activity_chemprepprs" >
-        </activity>
+            android:label="@string/title_activity_chemprepprs"></activity>
         <activity
             android:name=".welcome"
-            android:label="JBOOKS" >
+            android:label="JBOOKS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,28 +54,23 @@
         </activity>
         <activity
             android:name=".physummpprs"
-            android:label="@string/title_activity_physummpprs" >
-        </activity>
+            android:label="@string/title_activity_physummpprs"></activity>
         <activity
             android:name=".chemsummpprs"
-            android:label="@string/title_activity_chemsummpprs" >
-        </activity>
+            android:label="@string/title_activity_chemsummpprs"></activity>
         <activity
             android:name=".singupform"
-            android:label="@string/title_activity_singupform" >
-        </activity>
+            android:label="@string/title_activity_singupform"></activity>
         <activity
             android:name=".signup_par_stu"
-            android:label="@string/title_activity_signup_par_stu" >
-        </activity>
+            android:label="@string/title_activity_signup_par_stu"></activity>
         <activity
             android:name=".rolechoose"
-            android:label="@string/title_activity_rolechoose" >
-        </activity>
+            android:label="@string/title_activity_rolechoose"></activity>
         <activity
             android:name=".signup_stu_par"
-            android:label="@string/title_activity_signup_stu_par" >
-        </activity>
+            android:label="@string/title_activity_signup_stu_par"></activity>
+        <activity android:name=".AboutUs"></activity>
     </application>
 
 </manifest>
